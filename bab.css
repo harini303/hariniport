@@ -1,0 +1,149 @@
+.babyproduct{
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+}
+
+*{
+    text-decoration: none;
+}
+li{
+    
+    list-style: no;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+   font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li:hover{
+    color: crimson;
+}
+.img-1{
+    
+    width: 1350px;
+    height: 380px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin:50px;
+    
+}
+.cart{
+    background-color: white;
+    border: 1px solid white;
+    padding: 80px;
+    height: 350px;
+    width: 230px;
+    gap: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.btn{
+    background-color: rgb(121, 122, 235);
+    margin-left: 8px;
+    border-radius: 1px;
+    padding: 3px;
+    width: 80px;
+    font-weight: bold;
+    font-family:Geneva;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+}
+.items-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin:50px;
+    
+}
+.cart-1{
+    background-color: white;
+    border: 1px solid white;
+    padding: 80px;
+    height: 350px;
+    width: 230px;
+    gap: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.container{
+    display: flex;
+    font-size: 40px;
+}
+.contains{
+    padding: 20px;
+}
+.items-2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+    margin:10px;
+    
+}
+.design{
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    height: 250px;
+    width: 200px;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+} 
+.items-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin:10px;
+    
+}
+.blog{
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px;
+    height: 400px;
+    width: 450px;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+} 
+footer {
+    background-color: rgb(51, 53, 53);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -8px;
+}
+
+.socialicons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+}
+
+.footernav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: aliceblue;
+}
+
+.footerbottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    color: blanchedalmond;
+
+}
+
+.footer-a,
+.bx{
+    padding:0px 10px;
+    color: blanchedalmond;
+}

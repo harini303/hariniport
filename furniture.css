@@ -1,0 +1,161 @@
+
+*{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color:black;
+}
+
+li:hover{
+    color: crimson;
+}
+.nav1{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.searchbox{
+    display:flex;
+    padding: 5px;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.logo{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.icon{
+    font-size: 40px;
+    align-items: end;
+}
+.log{
+    background-color: rgb(63, 53, 54);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+}
+.log a{
+    color: rgb(240, 228, 228);
+    font-weight: bold;
+    font-size: 14px;
+}
+.log a:hover{
+    color: rgb(230, 13, 13);
+}
+.section2 li{
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+li:hover{
+    color: crimson;
+    
+}
+.img-1{
+    
+    width: 1370px;
+    height: 400px;
+}
+
+.items {
+    display: flex;
+    
+    gap: 20px;
+    margin: 30px;
+
+}
+
+.cart {
+    
+    color: brown;
+    padding: 30px;
+    height: 350px;
+    width: 200px;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+.c1{
+    display: flex;
+}
+.c2{
+    display: flex;
+}
+
+.topic{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+.topic :hover{
+    color: blueviolet;
+}
+.img-2{
+    
+    width: 1350px;
+    height: 300px;
+}
+.best{
+    display: flex;
+    columns: (4, 1fr);
+    gap: 20px;
+    margin: 20px;
+} 
+.brand{
+    display: flex;
+    height: 120px;
+    width: 100px;
+    padding: 20px;
+}
+.location{
+    display: flex;
+    padding: 20px;
+    gap: 60px;
+}
+.name{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    background-color: rgb(245, 234, 234);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .footer p{
+    font-size: 14px;
+    padding: 8px;
+    
+    font-weight: 300;
+  }
+  .payment{
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    gap: 300px;
+    
+  }
+  .footerbottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+
+}

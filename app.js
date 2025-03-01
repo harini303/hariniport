@@ -120,7 +120,7 @@ window.addEventListener('scroll', scrollActive)
 
 function downloadPDF() {
     const link = document.createElement('a');
-    link.href = 'pdf/harini Resume..pdf';  // Path to your PDF
-    link.download = 'harini Resume.pdf';  // Name for the downloaded file
+    link.href = 'pdf/Harini_resume.pdf';  // Path to your PDF
+    link.download = 'Harini_resume.pdf';  // Name for the downloaded file
     link.click();
   }
